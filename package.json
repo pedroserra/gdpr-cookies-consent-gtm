@@ -1,0 +1,27 @@
+{
+    "name": "gdpr-cookies-consent-gtm",
+    "version": "1.0.0",
+    "description": "GDPR Cookie Consent using Google Tag Manager",
+    "main": "src/main.js",
+    "scripts": {
+        "dev": "./node_modules/.bin/webpack --watch",
+        "build": "NODE_ENV=production ./node_modules/.bin/webpack",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "gdpr",
+        "cookies",
+        "consent",
+        "tag",
+        "manager"
+    ],
+    "author": "Pedro Serra",
+    "license": "MIT",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-loader": "^7.1.5",
+        "babel-preset-env": "^1.7.0",
+        "webpack": "^4.15.0",
+        "webpack-closure-compiler": "^2.1.6"
+    }
+}

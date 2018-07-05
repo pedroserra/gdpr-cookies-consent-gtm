@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>This is a test</title>
+
+    <script src="../dist/gdpr-cookies-consent-gtm.js"></script>
+    <link rel="stylesheet" href="../dist/gdpr-cookies-consent-gtm.css" />
+
+    <script>
+        window.addEventListener('load', function() {
+            CookiesConsent({});
+        });
+    </script>
+</head>
+
+<body>
+    <h1>GDPR Cookies Consent</h1>
+
+    <div id="cookies-consent">
+        <button type="button" class="close">&#10060;</button>
+        <p>
+            Our <a href="#">Cookie Policy</a> and <a href="#">Privacy Policy</a> outline how we use cookies to help optimize service, personalize content, tailor and measure our marketing, and improve your user experience. I agree to use of cookies for
+            these purposes.
+        </p>
+        <p class="details">
+            <label><input type="checkbox" checked disabled name="cookies-essential" /> Essential</label>
+            <label><input type="checkbox" checked name="cookies-statistics" /> Statistics</label>
+        </p>
+        <p style="text-align: right;">
+            <button type="button" class="accept">Agree</button>
+            <button type="button" class="reject">No</button>
+            <button type="button" class="details">Details</button>
+        </p>
+    </div>
+    
+</body>
+
+</html>
