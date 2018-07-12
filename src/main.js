@@ -12,7 +12,9 @@ global.CookiesConsent = function(options) {
         closeButton: '.close',
         acceptButton: 'button.accept',
         rejectButton: 'button.reject',
-        detailsButton: 'button.details'
+        detailsButton: 'button.details',
+        //
+        onApply: function (){},
     }, options);
 
     let element = document.querySelector(options.element);
